@@ -1,0 +1,17 @@
+# Docker Nginx Flask App
+
+This project demonstrates a Flask web application deployed behind an Nginx reverse proxy using Docker Compose.
+
+## Tech Stack
+- Python (Flask)
+- Nginx
+- Docker
+- Docker Compose
+- Linux
+
+## Architecture
+Client → Nginx → Flask App
+
+## How to Run
+```bash
+docker compose up --build
